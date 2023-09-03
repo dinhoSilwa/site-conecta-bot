@@ -1,27 +1,28 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
 /* rgb: 92, 36, 182 */
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,900&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
- 
-  @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
-  @font-face {
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@font-face {
     font-family: 'MinhaFonte';
     src: url('../fonts/FontsFree-Net-camporaclassic-bold.ttf') format('truetype');
     /* Você pode incluir outras variações da fonte aqui, como fonte itálica ou negrito */
 }
+
 @font-face {
     font-family: 'MinhaFonte2';
     src: url('../fonts/mohr-alt-bold.otf') format('truetype');
@@ -31,135 +32,190 @@
 
 
 
-.menu-topo{
+.menu-topo {
 
-background-color: rgba(91, 69, 201, 0.206);
+    background-color: rgba(91, 69, 201, 0.206);
 }
 
-body{
+body {
 
-  
 
-background-color: rgb(89,68,199); /* Cor de fundo do corpo */
-margin: 0; /* Remova a margem padrão do corpo */
-height: 200vh; /* 100% da altura da viewport */
-background-image: radial-gradient(#3acaa6d7 1.5px, transparent 1.5px); /* Gradiente radial */
-background-size:50px 50px; /* Tamanho do gradiente */
+
+    background-color: rgb(89, 68, 199);
+    /* Cor de fundo do corpo */
+    margin: 0;
+    /* Remova a margem padrão do corpo */
+    height: 200vh;
+    /* 100% da altura da viewport */
+    background-image: radial-gradient(#3acaa6d7 1.5px, transparent 1.5px);
+    /* Gradiente radial */
+    background-size: 50px 50px;
+    /* Tamanho do gradiente */
 }
+
 .menu-principal-topo {
-position: fixed;
-top: 0;
-width: 100vw;
-height: 150px;
-display: flex; /* Torna o elemento um container flexível */
-align-items: center; /* Centraliza os itens verticalmente */    
-justify-content: space-between;
-box-sizing: border-box;
-overflow: hidden;
-padding: 0px 20px;
-z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    /* Torna o elemento um container flexível */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0px 20px;
+    z-index: 1;
 }
 
 
 
-.imagem-logo-topo{
-width: 80px;
+.imagem-logo-topo {
+    width: 50px;
 }
 
-.btn-orcamento{
-background-color: #0ac1e1;
-border-radius: 20px;
-width: 100%;
-color: rgb(7, 7, 121);
-border: none;
-font-size: small;
-transition: all ease;
-font-family: 'Red Hat Display', sans-serif;
+.btn-orcamento {
+    background-color: #0ac1e1;
+    border-radius: 20px;
+    width: 100%;
+    color: rgb(7, 7, 121);
+    border: none;
+    font-size: small;
+    transition: all ease;
+    font-family: 'Red Hat Display', sans-serif;
 }
-.btn-orcamento:hover{
-background-color: aliceblue;
-color: rgb(7, 7, 121);
-transform: scale(1.02);
 
-
-}
-.botao-de-orcamento-menu{
-width: 40%;
-
-
-}
-.banner1-logo-robo{
-margin-top: 100px;
-width: 100%;
-height: 600px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-
-}
-.img-robo{
-
-width: 80%;
-display: flex;
-flex-direction: row;
-justify-content: center;
-
-margin:auto;}
-
-.container-titulo{
-width: 80%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin: auto;
-color: aliceblue;
+.btn-orcamento:hover {
+    background-color: aliceblue;
+    color: rgb(7, 7, 121);
+    transform: scale(1.02);
 
 
 }
 
-.container-titulo h1 + p{
-color: aliceblue;
-font-weight: 600;
+.botao-de-orcamento-menu {
+    width: 40%;
+
+
 }
-.container-titulo p{
+
+.banner1-logo-robo {
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.img-robo {
+
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: auto;
+}
+
+.container-titulo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: aliceblue;
+
+
+}
+
+.container-titulo h1+p {
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.container-titulo p {
     font-size: 0.9rem;
     line-height: 15px;
 }
 
 
-.container-titulo h1{
+.container-titulo h1 {
     width: 80%;
     margin: auto;
     letter-spacing: -1px;
     font-weight: 600;
     font-family: 'MinhaFonte';
     font-size: 1.6rem;
-    
-}
 
+}
 
 /* FORMATAÇÃO DA SEÇÃO DE VANTAGENS DO SITE  */
 
-.main-vantagens{
+.main-vantagens {
 
-width: 92%;
-margin: auto;
-border-radius: 18px;
-background: #5c24b6;
-font-family: 'MinhaFonte';
-font-weight: 600;
-padding: 20px;
+    width: 92%;
+    margin: auto;
+    border-radius: 18px;
+    background: #5c24b6;
+    font-family: 'MinhaFonte';
+    font-weight: 600;
+    padding: 20px;
 
 }
 
-
-
-.vantagens-legenda h2{
+.vantagens-legenda h2 {
     margin: auto;
     width: 90%;
     color: aliceblue;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-align: center;
     font-weight: 900;
-    font
+    font-family: 'MinhaFonte';
+}
+
+.vantagem {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+    padding: 10px 5px;
+}
+
+.vantagem i {
+    /* border: 3px solid #fff; */
+    width: 80px;
+    height: 80px;
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #0ac1e1;
+    color: #400c93;
+    font-size: 30px;
+    
+}
+
+.vantagem i:hover{
+    
+   background-color: #400c93;
+   color: #0ac1e1;
+   border: #43099f;
+}
+
+.vantagem p {
+    color: #fff;
+    font-weight: 100;
+    width: 90%;
+    text-align: center;
+    margin:auto;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
