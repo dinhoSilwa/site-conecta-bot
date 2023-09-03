@@ -3,6 +3,8 @@
     margin: 0px;
 }
 
+/* rgb: 92, 36, 182 */
+
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,900&display=swap');
 
   @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
@@ -11,6 +13,22 @@
   @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
   @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+  @font-face {
+    font-family: 'MinhaFonte';
+    src: url('../fonts/FontsFree-Net-camporaclassic-bold.ttf') format('truetype');
+    /* Você pode incluir outras variações da fonte aqui, como fonte itálica ou negrito */
+}
+@font-face {
+    font-family: 'MinhaFonte2';
+    src: url('../fonts/mohr-alt-bold.otf') format('truetype');
+    /* Você pode incluir outras variações da fonte aqui, como fonte itálica ou negrito */
+}
+
+
 
 
 .menu-topo{
@@ -49,7 +67,7 @@ width: 80px;
 }
 
 .btn-orcamento{
-background-color: rgb(10, 193, 225);
+background-color: #0ac1e1;
 border-radius: 20px;
 width: 100%;
 color: rgb(7, 7, 121);
@@ -103,6 +121,10 @@ color: aliceblue;
 color: aliceblue;
 font-weight: 600;
 }
+.container-titulo p{
+    font-size: 0.9rem;
+    line-height: 15px;
+}
 
 
 .container-titulo h1{
@@ -110,7 +132,7 @@ font-weight: 600;
     margin: auto;
     letter-spacing: -1px;
     font-weight: 600;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'MinhaFonte';
     font-size: 1.6rem;
     
 }
@@ -119,16 +141,25 @@ font-weight: 600;
 /* FORMATAÇÃO DA SEÇÃO DE VANTAGENS DO SITE  */
 
 .main-vantagens{
-border: 3px solid red;
+
 width: 92%;
 margin: auto;
+border-radius: 18px;
+background: #5c24b6;
+font-family: 'MinhaFonte';
+font-weight: 600;
+padding: 20px;
 
 }
 
-.main-vantagens h1{
 
-}
 
-.vantagens-legenda{
-background-color: azure;
+.vantagens-legenda h2{
+    margin: auto;
+    width: 90%;
+    color: aliceblue;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 900;
+    font
 }
